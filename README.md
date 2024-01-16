@@ -4,7 +4,6 @@ This project focuses on the recognition of emotions in images implementing the P
 
 ![FER2013](https://pub.mdpi-res.com/electronics/electronics-12-02707/article_deploy/html/images/electronics-12-02707-g001.png?1686919690)
 
-## Project Structure
 The project is organized into the following modules:
 
 ## Dataset:
@@ -12,7 +11,7 @@ The project is organized into the following modules:
 We used the Dataset FER2013 that was built for emotion recognition tasks, this dataset is composed by 7 classe (1 for eadh emotion) labeled from 0 to 6, and another class that is used for testing. It also contain some tricky images for example some empty images.
 ## Preprocessing:
 
-We apply som transformation to the dataset in particular a resize, a normalization and we also apply a orizontal roation and a random rotation in order to  teach to model to handle rotaion of the features.
+We apply som transformation to the dataset in particular a resize, a normalization and we also apply a orizontal roation and a random rotation in order to teach the model to handle rotaion of the features.
 
 ## Model:
 
