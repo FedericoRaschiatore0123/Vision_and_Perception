@@ -2,6 +2,8 @@
 ## Description
 This project focuses on the recognition of emotions in images implementing the PAtt-Lite(https://arxiv.org/pdf/2306.09626v1.pdf). The main goal is to develop a model capable of identifying human emotions, such as happiness, sadness, anger, etc., from input images.
 
+![FER2013](https://pub.mdpi-res.com/electronics/electronics-12-02707/article_deploy/html/images/electronics-12-02707-g001.png?1686919690)
+
 ## Project Structure
 The project is organized into the following modules:
 
@@ -21,9 +23,13 @@ The model is composed by:
   
 ## Implementation choices:
 We decided to use PytorchLightning framework to simplify the code and make it more readable
+
 For the Loss function we decided to use a CrossEntropy function
+
 For the optimizer we used an Adam optimizer with a learning rate of 1e-4
+
 For the Batch size we decided to use 128 because after a lot of tests seems to be the one with the best performance
+
 We decided to use 8 heads for our ViT
 
 ## Test:
@@ -31,12 +37,15 @@ We decided to use 8 heads for our ViT
 To Test the model you have to:
 
 Install all the dependencies (pytorch_lightning, einops, ...)
+
 Import the Dataset from the zip files on our github
 
 ## Results:
 
 We trained the model for 15 epochs and obtain the following result:
+
 Accuracy on validation: 72%
+
 Accuracy on test: 64%
 
 Due to the limitations of google Colab we couldn't train it for more epochs but probably the model will achive the performance of the SOTA.
