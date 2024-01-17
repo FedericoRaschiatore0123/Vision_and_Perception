@@ -41,9 +41,9 @@ Import the Dataset from the zip files on our github
 
 ## Results:
 
-We trained the model for 15 epochs and obtain the following result:
+We trained the model for 20 epochs and obtain the following result:
 
-Accuracy on validation: 72%
+Accuracy on validation: 75%
 
 Accuracy on test: 64%
 
